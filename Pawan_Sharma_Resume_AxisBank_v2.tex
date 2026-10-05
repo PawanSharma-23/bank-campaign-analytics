@@ -1,0 +1,63 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=0.55in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec,enumitem,xcolor}
+\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+\pagestyle{empty}\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{\MakeUppercase}[{\color{black!25}\titlerule[1.5pt]}]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+\setlist[itemize]{leftmargin=1.2em,label=--,itemsep=1pt,topsep=2pt}
+\newcommand{\entry}[4]{\textbf{#1}\hfill #2\\\textit{#3}\hfill {\small #4}\vspace{-2pt}}
+\begin{document}
+
+\begin{center}
+{\fontsize{24}{28}\selectfont\bfseries PAWAN KUMAR SHARMA}\\[4pt]
+7909043062 \enspace|\enspace \href{mailto:pawankrsharmaxic00@gmail.com}{pawankrsharmaxic00@gmail.com} \enspace|\enspace \href{https://linkedin.com/in/pawankrsharma555}{linkedin.com/in/pawankrsharma555}
+\end{center}
+
+\section{Summary}
+Computer Science undergraduate at BIT Mesra with strong foundations in data structures, DBMS and Python, and hands-on experience processing high-volume request data and analysing system performance under load. Eager to apply structured problem-solving and data-driven decision making to banking products as an analytics intern.
+
+\section{Education}
+\entry{Birla Institute of Technology, Mesra}{Aug. 2024 -- May 2028}{Bachelor of Technology in Computer Science \textbar\ CGPA: 7.83}{Mesra, Ranchi, India}\\[2pt]
+\textbf{Relevant Coursework:} DBMS, Data Structures \& Algorithms, OOP, Operating Systems, COA\\[4pt]
+\entry{Rajendra Vidyalaya \& Ramkrishna Mission School}{}{Class XII: 86.4\% \enspace|\enspace Class X: 91.2\%}{Jamshedpur, India}
+
+\section{Skills}
+\textbf{Data \& Analysis:} Python (pandas, scikit-learn), SQL, Excel, Predictive Modelling, Root-Cause Analysis\\
+\textbf{Programming:} C++, Java, Go, C\\
+\textbf{CS Fundamentals:} DBMS, Data Structures \& Algorithms, OS, Distributed Systems, Concurrency\\
+\textbf{Tools:} Git, GitHub, Redis, VS Code
+
+\section{Projects}
+\textbf{Bank Campaign Propensity Model \& Targeting Strategy} \textit{(Python, scikit-learn, SQL, Excel)}\hfill 2026
+\begin{itemize}
+\item Analysed 41K+ bank telemarketing calls in Python and SQL to find conversion drivers across channel, timing, life stage and past response; past responders convert at 65\% vs.\ an 11\% average.
+\item Built a leakage-free propensity model (Gradient Boosting, ROC-AUC 0.82) on pre-call data; the top-scored 10\% of customers convert at 4.7x the average.
+\item Designed a targeting strategy: calling only the top 30\% reaches 74\% of buyers with 70\% fewer calls; built an Excel dashboard with a campaign-profit simulator.
+\end{itemize}
+\textbf{Distributed Rate Limiter System} \textit{(Go, Redis, Lua)}\hfill 2026 -- Present
+\begin{itemize}
+\item Built a distributed rate limiter that makes real-time allow/deny decisions on incoming traffic, staying consistent across multiple service instances.
+\item Implemented and compared token-bucket and sliding-window algorithms, sustaining 10K+ concurrent requests in load tests.
+\item Analysed load-test results to trace race conditions to their root cause; fixed them with Redis atomic operations, keeping average decision latency under 5\,ms.
+\end{itemize}
+
+\section{Leadership \& Experience}
+\entry{Robolution Club, BIT Mesra}{Aug. 2024 -- Present}{Sponsorship Team Lead (Robosaga 2026) \& Technical Member}{Mesra, Ranchi, India}
+\begin{itemize}
+\item Led sponsorship outreach for Robosaga 2026, pitching to and coordinating with external corporate partners and internal event teams.
+\item Built a Wi-Fi controlled ESP32 terrain-adaptive gripper robot (PWM motor control, servo gripper), tuning control parameters through iterative testing.
+\end{itemize}
+\entry{National Cadet Corps (NCC)}{2024 -- Present}{Sergeant}{BIT Mesra}
+\begin{itemize}
+\item Led and coordinated cadet activities within a structured command hierarchy, building leadership, discipline and teamwork.
+\end{itemize}
+
+\section{Achievements}
+\begin{itemize}[label=\textbullet]
+\item Solved 200+ DSA problems across arrays, trees, graphs, dynamic programming and greedy algorithms (Striver SDE Sheet).
+\end{itemize}
+\end{document}
